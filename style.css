@@ -12,9 +12,15 @@ body{
   justify-content: center;
   min-height: 100vh;
   padding: 0 10px;
-  background-image: linear-gradient(to right, #d2d2d2, #464646);
+  background-image: linear-gradient(to right, #dfceff, #7a8cff);
 
 
+}
+
+.dexlogo{
+  width: 300px;
+ object-fit: contain;
+ margin-bottom: -60px;
 }
 ::selection{
   color: #fff;
@@ -90,6 +96,12 @@ form .drop-list{
   border-radius: 8px;
   border-right: 2px solid #ffffff;
 }
+body {
+  background-image: url('Images/globe\ finance.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .drop-list .icon{
   cursor: pointer;
   margin-top: 30px;
@@ -110,11 +122,11 @@ form button{
   color: #fff;
   font-size: 17px;
   cursor: pointer;
-  background: #a8a8a8;
+  background: #936200;
   transition: all 0.5s;
 }
 form button:hover{
-  background: #666666;
+  background: #9e5c00af;
 
 }
 
